@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<body>
+<div  th:fragment="baseMenubar(h1)" class="container">
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="/index">Home</a>
+        <a class="navbar-brand" href="/shop">Shop</a>
+        <a class="navbar-brand" href="/basket">Basket (n items)</a>
+    </nav>
+    <h1 th:replace="${h1}"></h1>
+</div>
+</body>
+</html>
