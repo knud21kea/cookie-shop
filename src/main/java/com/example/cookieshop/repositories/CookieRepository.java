@@ -1,5 +1,6 @@
 package com.example.cookieshop.repositories;
 
+import com.example.cookieshop.models.Basket;
 import com.example.cookieshop.models.Cookie;
 
 import java.util.ArrayList;
@@ -7,7 +8,10 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CookieRepository {
-    //TODO Implement real repository
+
+    public CookieRepository()
+    {
+    }
     /*This is a test-repository*/
 
     public List<Cookie> getAllCookies(){
